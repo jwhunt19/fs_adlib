@@ -1,0 +1,35 @@
+{
+  "name": "fs_adlib",
+  "version": "1.0.0",
+  "description": "full stack ad lib practice app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwhunt19/fs_adlib.git"
+  },
+  "author": "jwhunt19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwhunt19/fs_adlib/issues"
+  },
+  "homepage": "https://github.com/jwhunt19/fs_adlib#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1"
+  }
+}
