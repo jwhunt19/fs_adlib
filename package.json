@@ -4,7 +4,8 @@
   "description": "full stack ad lib practice app ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack -w",
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,8 @@
     "@babel/preset-react": "^7.17.12",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
-    "style-loader": "^3.3.1"
+    "nodemon": "^2.0.16",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2"
   }
 }
